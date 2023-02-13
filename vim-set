@@ -1,0 +1,37 @@
+"開啟行號
+set nu
+ 
+"不把太長的句子折下來
+"set nowrap
+
+
+"自動對齊
+set ai
+
+
+"使用c風格的自動縮進
+set cindent
+
+"語法高亮
+syntax enable
+syntax on
+
+
+
+"光標那列特別標記
+set cursorline
+"光標那列標記設定
+hi CursorLine cterm = bold ctermbg = DarkGrey ctermfg = none
+
+
+"光標那行特別標記
+set cursorcolumn
+"光標那行標記設定
+hi CursorColumn cterm = bold ctermbg = DarkGrey ctermfg = none
+
+"輸入時自動搜尋
+set incsearch
+
+"將搜尋到的所有結果高亮
+set hlsearch
+
